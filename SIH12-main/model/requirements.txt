@@ -1,122 +1,262 @@
-absl-py                      2.1.0     
-astunparse                   1.6.3     
-attrs                        24.2.0    
-bcrypt                       4.2.1     
-beautifulsoup4               4.12.3    
-bidict                       0.23.1     
-blinker                      1.8.2     
-cachetools                   5.5.0     
-certifi                      2024.8.30 
-cffi                         1.17.1    
-charset-normalizer           3.4.0     
-click                        8.1.7     
-colorama                     0.4.6     
-coloredlogs                  15.0.1    
-contourpy                    1.1.1     
-cycler                       0.12.1    
-deepface                     0.0.93    
-dnspython                    2.6.1     
-exceptiongroup               1.2.2     
-filelock                     3.16.1    
-fire                         0.7.0     
-Flask                        3.0.3     
-Flask-Cors                   5.0.0     
-Flask-Mail                   0.10.0    
-Flask-SocketIO               5.4.1     
-Flask-SQLAlchemy             3.1.1     
-flatbuffers                  24.3.25  
-fonttools                    4.55.0    
-fsspec                       2024.10.0 
-gast                         0.4.0     
-gdown                        5.2.0     
-google-auth                  2.36.0  
-google-auth-oauthlib         1.0.0     
-google-pasta                 0.2.0     
-greenlet                     3.1.1     
-grpcio                       1.68.0    
-gunicorn                     23.0.0    
-h11                          0.14.0    
-h5py                         3.11.0    
-humanfriendly                10.0      
-idna                         3.10      
-importlib_metadata           8.5.0     
-importlib_resources          6.4.5     
-itsdangerous                 2.2.0     
-jax                          0.4.13    
-Jinja2                       3.1.4     
-joblib                       1.4.2     
-KEC_BDA                      0.1.0     
-keras                        2.13.1    
-kiwisolver                   1.4.7     
-libclang                     18.1.1    
-Markdown                     3.7       
-MarkupSafe                   2.1.5     
-matplotlib                   3.7.5    
-mediapipe                    0.10.11   
-ml-dtypes                    0.2.0     
-mpmath                       1.3.0     
-mtcnn                        0.1.1     
-mysql-connector-python       9.0.0     
-networkx                     3.1     
-numpy                        1.24.3    
-oauthlib                     3.2.2     
-onnxruntime                  1.19.2    
-opencv-contrib-python        4.10.0.84 
-opencv-python                4.10.0.84 
-opt_einsum                   3.4.0     
-outcome                      1.3.0.post0
-packaging                    24.2     
-pandas                       2.0.3     
-pillow                       10.4.0    
-pip                          24.2     
-protobuf                     3.20.3    
-pyasn1                       0.6.1     
-pyasn1_modules               0.4.1     
-pycparser                    2.22      
-pymongo                      4.10.1     
-pyparsing                    3.1.4     
-pyreadline3                  3.5.4     
-PySocks                      1.7.1    
-python-dateutil              2.9.0.post0
-python-dotenv                1.0.1     
-python-engineio              4.10.1    
-python-socketio              5.11.4    
-pytz                         2024.2    
-requests                     2.32.3    
-requests-oauthlib            2.0.0     
-retina-face                  0.0.17    
-rsa                          4.9       
-scikit-learn                 1.3.2     
-scipy                        1.10.1    
-selenium                     4.26.1    
-setuptools                   74.1.2    
-simple-websocket             1.1.0     
-six                          1.16.0    
-sniffio                      1.3.1     
-sortedcontainers             2.4.0     
-sounddevice                  0.5.1     
-soupsieve                    2.6       
-SQLAlchemy                   2.0.36    
-sympy                        1.13.3    
-tensorboard                  2.13.0    
-tensorboard-data-server      0.7.2    
-tensorflow                   2.13.0    
-tensorflow-estimator         2.13.0    
-tensorflow-intel             2.13.0    
-tensorflow-io-gcs-filesystem 0.31.0    
-termcolor                    2.4.0     
-threadpoolctl                3.5.0     
-torch                        2.4.1     
-tqdm                         4.67.0    
-trio                         0.27.0    
-trio-websocket               0.11.1    
-typing_extensions            4.12.2    
-tzdata                       2024.2    
-urllib3                      2.2.3     
-webdriver-manager            4.0.2     
-websocket-client             1.8.0     
-Werkzeug                     3.0.6     
-wheel                        0.44.0    
-wrapt                        1.16.0    
-wsproto                      1.2.0     
-zipp                         3.20.2 
+absl-py==2.1.0
+aiohttp==3.9.3
+aiosignal==1.3.1
+altair==5.4.1
+annotated-types==0.6.0
+anyio==4.0.0
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+astunparse==1.6.3
+async-lru==2.0.4
+attrs==24.2.0
+Babel==2.13.1
+backcall==0.2.0
+beautifulsoup4==4.12.2
+bleach==6.1.0
+blinker==1.7.0
+blis==0.7.11
+cachetools==5.5.0
+catalogue==2.0.10
+certifi==2023.7.22
+cffi==1.16.0
+charset-normalizer==3.3.1
+chex==0.1.86
+click==8.1.7
+cloudpathlib==0.16.0
+colorama==0.4.6
+comm==0.1.4
+confection==0.1.4
+contourpy==1.2.0
+cx_Oracle==8.3.0
+cycler==0.12.1
+cymem==2.0.8
+DateTime==5.4
+debugpy==1.8.0
+decorator==5.1.1
+deepface==0.0.92
+defusedxml==0.7.1
+detect==2020.12.3
+distro==1.9.0
+dm-tree==0.1.8
+dnspython==2.6.1
+easygoogletranslate==0.0.4
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
+et-xmlfile==1.1.0
+etils==1.8.0
+executing==2.0.0
+fastjsonschema==2.18.1
+filelock==3.13.3
+fire==0.6.0
+Flask==2.2.3
+flatbuffers==24.3.25
+flax==0.8.2
+fonttools==4.48.1
+fqdn==1.5.1
+frozenlist==1.4.1
+fsspec==2024.3.1
+gast==0.6.0
+gdown==5.2.0
+git-filter-repo==2.45.0
+gitdb==4.0.11
+GitPython==3.1.43
+google==3.0.0
+google-pasta==0.2.0
+google-transliteration-api==1.0.3
+grpcio==1.65.4
+gunicorn==23.0.0
+h11==0.14.0
+h5py==3.10.0
+httpcore==1.0.5
+httpx==0.27.0
+huggingface-hub==0.22.2
+idna==3.4
+imageio==2.35.1
+importlib_resources==6.4.0
+ipykernel==6.26.0
+ipython==8.16.1
+ipython-genutils==0.2.0
+ipywidgets==8.1.1
+isoduration==20.11.0
+itsdangerous==2.1.2
+jax==0.4.25
+jaxlib==0.4.25
+jedi==0.19.1
+Jinja2==3.1.2
+joblib==1.3.2
+json5==0.9.14
+jsonpointer==2.4
+jsonschema==4.19.1
+jsonschema-specifications==2023.7.1
+jupyter==1.0.0
+jupyter-console==6.6.3
+jupyter-events==0.8.0
+jupyter-lsp==2.2.0
+jupyter_client==8.5.0
+jupyter_core==5.4.0
+jupyter_server==2.9.1
+jupyter_server_terminals==0.4.4
+jupyterlab==4.0.7
+jupyterlab-pygments==0.2.2
+jupyterlab-widgets==3.0.9
+jupyterlab_server==2.25.0
+keras==3.6.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+langdetect==1.0.9
+lazy_loader==0.4
+libclang==18.1.1
+Markdown==3.6
+markdown-it-py==3.0.0
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+mdurl==0.1.2
+mediapipe==0.10.14
+mistune==3.0.2
+ml-dtypes==0.3.2
+msgpack==1.0.8
+mtcnn==0.1.1
+multidict==6.0.5
+murmurhash==1.0.10
+mysql-connector-python==8.2.0
+mysql-connector-python-rf==2.2.2
+namex==0.0.7
+narwhals==1.9.1
+nbclient==0.8.0
+nbconvert==7.9.2
+nbformat==5.9.2
+nest-asyncio==1.5.8
+networkx==3.3
+nltk==3.8.1
+normalizer==0.2.1
+notebook==7.0.6
+notebook_shim==0.2.3
+numpy==1.26.1
+oauthlib==3.2.2
+openai==0.28.0
+opencv-contrib-python==4.10.0.84
+opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
+openpyxl==3.1.5
+opt-einsum==3.3.0
+optax==0.2.2
+optree==0.12.1
+orbax-checkpoint==0.5.7
+outcome==1.3.0.post0
+overrides==7.4.0
+packaging==23.2
+pandas==2.1.2
+pandocfilters==1.5.0
+parso==0.8.3
+pickleshare==0.7.5
+pillow==10.2.0
+pipeline==0.1.0
+platformdirs==3.11.0
+preshed==3.0.9
+prometheus-client==0.17.1
+prompt-toolkit==3.0.39
+protobuf==4.25.3
+psutil==5.9.6
+pure-eval==0.2.2
+pyarrow==17.0.0
+pycparser==2.21
+pydantic==2.6.4
+pydantic_core==2.16.3
+pydeck==0.9.1
+Pygments==2.16.1
+pymongo==4.7.0
+pyparsing==3.1.1
+PySocks==1.7.1
+pyTelegramBotAPI==4.22.1
+python-dateutil==2.8.2
+python-dotenv==1.0.1
+python-json-logger==2.0.7
+python-telegram-bot==21.4
+python-utils==3.8.2
+pytz==2023.3.post1
+pywin32==306
+pywinpty==2.0.12
+PyYAML==6.0.1
+pyzmq==25.1.1
+qtconsole==5.4.4
+QtPy==2.4.1
+referencing==0.30.2
+regex==2023.10.3
+requests==2.31.0
+requests-oauthlib==1.3.1
+retina-face==0.0.17
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+rich==13.7.0
+rpds-py==0.10.6
+safetensors==0.4.2
+scikit-image==0.24.0
+scikit-learn==1.3.2
+scipy==1.11.3
+selenium==4.23.1
+Send2Trash==1.8.2
+setuptools==69.5.1
+silpa_common==0.3
+six==1.16.0
+smart-open==6.4.0
+smmap==5.0.1
+sniffio==1.3.0
+sortedcontainers==2.4.0
+sounddevice==0.4.7
+soupsieve==2.5
+spacy==3.7.4
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+srsly==2.4.8
+stack-data==0.6.3
+streamlit==1.39.0
+tabulate==0.9.0
+telebot==0.0.5
+tenacity==9.0.0
+tensorboard==2.17.1
+tensorboard-data-server==0.7.2
+tensorflow==2.17.0
+tensorflow-intel==2.17.0
+tensorstore==0.1.56
+termcolor==2.4.0
+terminado==0.17.1
+tf_keras==2.17.0
+thinc==8.2.3
+threadpoolctl==3.2.0
+tifffile==2024.8.30
+tinycss2==1.2.1
+tokenizers==0.15.2
+toml==0.10.2
+toolz==0.12.1
+tornado==6.3.3
+tqdm==4.66.1
+traitlets==5.12.0
+transformers==4.39.2
+translation==0.1.0
+transliteration==0.4.1
+trio==0.26.2
+trio-websocket==0.11.1
+tweepy==4.14.0
+typer==0.9.4
+types-python-dateutil==2.8.19.14
+typing_extensions==4.12.2
+tzdata==2023.3
+uri-template==1.3.0
+urllib3==2.0.7
+wasabi==1.1.2
+watchdog==5.0.3
+wcwidth==0.2.8
+weasel==0.3.4
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==1.8.0
+Werkzeug==3.0.1
+wheel==0.44.0
+widgetsnbextension==4.0.9
+wrapt==1.16.0
+wsproto==1.2.0
+yarl==1.9.4
+zipp==3.18.1
+zope.interface==6.1
